@@ -1,0 +1,25 @@
+@use '../abstracts/' as u;
+
+// layouts
+.wrapper {
+  width: min(100% - 40px, u.rem(1100));
+  margin-inline: auto;
+
+  &.has-padding {
+    padding-block: 40px;
+
+    @include u.breakpoint(medium) {
+      padding-block: 60px;
+    }
+  }
+}
+// decorations
+.rounded {
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  em {
+    font-style: normal;
+    background: var(--color-highlight);
+  }

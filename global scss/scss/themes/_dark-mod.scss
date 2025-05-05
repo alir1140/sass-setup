@@ -1,0 +1,8 @@
+@use 'abstracts';
+
+@mixin themes ($light-mod:true){
+    @if $light-mod{
+        background-color: lighten ($bk-color, 100%);
+        color: darken($text-color, 100%);
+    }
+}

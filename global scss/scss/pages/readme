@@ -1,0 +1,21 @@
+scss/
+│
+├── pages/
+│   ├── home/
+│   │   ├── _hero.scss
+│   │   ├── _features.scss
+│   │   ├── _testimonials.scss
+│   │   └── _home.scss     // ایمپورت کننده همه اجزای بالا
+│   │
+│   ├── product/
+│   │   ├── _gallery.scss
+│   │   ├── _info.scss
+│   │   ├── _reviews.scss
+│   │   └── _product.scss
+│   │
+│   ├── contact/
+│   │   ├── _form.scss
+│   │   ├── _map.scss
+│   │   └── _contact.scss
+│   │
+│   └── ...
